@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+
+
+        android:background="#212121">
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndeterminate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+
+
+            android:background="#1E88E5" />
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:typeface="sans"
+            android:text="Sign up"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+
+            android:textSize="30sp"
+
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:src="@drawable/next"
+            android:id="@+id/even2" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/prfimg"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/parsons"
+
+        app:border_width="2dp"
+        app:border_color="#9E9E9E"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="Samiran Roy"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#212121"
+
+        android:textSize="30sp"
+
+
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/momo" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="981174813"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#616161"
+
+        android:textSize="20sp"
+
+
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/momo2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="E-3 Ansari Nagar AIIMS Campus"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#9E9E9E"
+
+        android:textSize="15sp"
+
+
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/momo3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="New Delhi 110029"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#9E9E9E"
+
+        android:textSize="15sp"
+
+
+
+        android:layout_marginTop="3dp"
+        android:id="@+id/momo4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B6B6B6"
+        android:id="@+id/imageView"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

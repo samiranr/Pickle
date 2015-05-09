@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+
+
+        android:background="#212121">
+
+        <ImageView
+            android:id="@+id/rminator"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/topic"
+
+
+
+
+           />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:typeface="sans"
+            android:text="Pickle!"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+
+            android:textSize="30sp"
+
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <ImageButton
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:background="#212121"
+            android:src="@drawable/refresh"
+            android:layout_gravity="center"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+
+            android:id="@+id/lolz" />
+        <ImageButton
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:background="#212121"
+            android:src="@drawable/sett"
+            android:layout_gravity="center"
+
+            android:id="@+id/lol1" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|right"
+
+        android:layout_margin="20dp"
+        android:src="@drawable/addp"
+
+        fab:fab_colorNormal="#2196F3"
+        fab:fab_colorPressed="#1976D2"
+        fab:fab_colorRipple="#BBDEFB" />
+
+</FrameLayout>
+
+
+</LinearLayout>
